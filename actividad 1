@@ -1,0 +1,19 @@
+#include <iostream>
+
+int main() {
+// Paso 1: ingresar la edad
+    int edad;
+    std::cout << "ingresar un numero";
+    std::cin >> edad;
+
+// Paso 2: verificar si es mayor o menor de edad
+    if (edad >= 18) {
+// Paso 3: Mostrar en pantalla el resultado
+        std::cout << "Usted es mayor de edad." << std::endl;
+    } else {
+// Paso 3: Mostrar en pantalla el resultado
+        std::cout << "Usted es menor de edad." << std::endl;
+    }
+    return 0;
+}
+
