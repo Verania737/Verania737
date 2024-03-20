@@ -1,1 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float numero1, numero2;
+// paso 1:Agregar dos números
+    std::cout << "Escribe el primer número: ";
+    std::cin >> numero1;
+    cout << "Escribe el segundo número: ";
+    cin >> numero2;
+ //paso 2: mostrar las operaciones
+    std::cout << "La suma es: " << (numero1 + numero2) << endl;
+    std::cout << "La resta es: " << (numero1 - numero2) << endl;
+    std::cout << "La multiplicación es: " << (numero1 * numero2) << endl;
+    std::cout << "La división es: ";
+    if (numero2 != 0) {
+    std::cout << (numero1 / numero2) << endl;
+    } else {
+    std::cout << "No se puede dividir cero." << endl;
+    }
 
+return 0;
+}
